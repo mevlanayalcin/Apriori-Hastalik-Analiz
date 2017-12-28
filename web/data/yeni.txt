@@ -1,0 +1,7 @@
+kolon kanseri,koa,reflu
+reflu
+akciger kanseri,migren
+alzaymir,koa,migren
+kolon kanseri,bronsit,koa
+koa
+kolon kanseri

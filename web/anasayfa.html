@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hastalik Arastirma Platformu</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Hastalik Arastirma Platformu</a>
+            </div>
+         
+        </div>
+    </nav>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Arastirmak istediginiz hastaligi veya hastaliklari giriniz</h1>
+                <h4></h4>
+                <hr>
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <form class="contact-form row" action="/ControllerServlet" method="post">
+                        <div class="col-md-4">
+                            <label></label>
+                            
+                        </div>
+                        <div class="col-md-4">
+                            <label></label>
+                            <input type="text" class="form-control" placeholder="Hastalik" name="hastalik">
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <label></label>
+                            <input type="hidden" name="command" value="birliktelik">
+                            <input type="submit" data-toggle="modal" class="btn btn-primary btn-block btn-lg" value="Arastir"    />
+                        </div>
+                       
+                    
+                        
+                       
+                    </form>
+                </div>
+                
+                 <div class="col-md-4 col-md-offset-4">
+                            <label></label>
+                            <br/>
+                     <form method="post" action="/ControllerServlet" >
+                            <input type="hidden" name="command" value="enCok">
+                            <input type="submit" class="btn btn-primary btn-xl page-scroll" value="En sik rastlanan hastaliklar icin tiklayiniz">
+
+                     </form>
+                 </div>
+                
+            </div>
+        </div>
+        
+    </header>
+  
+
+    <!--scripts loaded here -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
